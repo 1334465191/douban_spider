@@ -32,7 +32,7 @@ class DoubanSpider(object):
                 f.write(json.dumps(content,ensure_ascii=False))
                 f.write("\n")  # 换行符
 
-    def run(self):
+    def run_myself(self):
         num = 0
         while True:
 
