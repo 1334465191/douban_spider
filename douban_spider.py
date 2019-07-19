@@ -42,7 +42,7 @@ class DoubanSpider(object):
             if len(context_list) == 0:
                 break
             self.save_content_list(context_list)
-            num += 5
+            num += 20
 
 
 if __name__ == "__main__":
