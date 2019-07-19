@@ -34,6 +34,7 @@ class DoubanSpider(object):
 
     def test(self):
         print("this is test function")
+        print("37")
         
     def run(self):
         num = 0
