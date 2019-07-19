@@ -31,14 +31,6 @@ class DoubanSpider(object):
                 # ensure_ascii 默认不适用ascill编码，默认utf-8，如果没有该参数，中文以二进制写入文件
                 f.write(json.dumps(content,ensure_ascii=False))
                 f.write("\n")  # 换行符
-
-    def te2(self):
-        print("this is test function")
-        print("37")
-
-    def function(self):
-        print("this is test function")
-        print("37")
         
     def run(self):
         num = 0
@@ -51,7 +43,7 @@ class DoubanSpider(object):
                 break
             self.save_content_list(context_list)
 
-            num += 5
+            num += 20
 
 
 if __name__ == "__main__":
